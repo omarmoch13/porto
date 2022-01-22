@@ -1,35 +1,45 @@
 import "./Portofolio.css";
 
-function clickme(){
-    alert('Muhammad Omar Mochtar CV is downloading')
+function clickme() {
+  alert("Muhammad Omar Mochtar CV is downloading");
 }
 
-export default function portofolio(){
-    return(
-        <div className="about">
-            
-                 <div className="gerak">
-                     <div className="gerakgerak">
-                         <div className="pertama">Web Developer (Front End)</div>
-                         <div className="pertama">Mobile Developer (Front End)</div>
-
-                     </div>
-                  
-                     
-                 </div>
-                 <div className="isiabout">
-                     <h2 className="isis">About Me</h2>
-                     <p className="isinya">University of Indonesia computer engineering student semester 6, To gain experience and knowledge through the involvement of different job opportunities, working in teams or on personal basis. To apply my communication and managerial skills. Looking forward to improve myself in new professional challenges and experiences in order to develop as a future leader. Always looking for ways to better others. Hardworking, loyal, persistent and always ready to learn from mistakes</p>
-                    
-                     <div ontouchstart="">
-  <div class="button">
-    <a href="#" onClick={clickme}>Download CV</a>
-  </div>
-</div>
-                 </div>
-             
+export default function portofolio() {
+  return (
+    <div className="about">
+      <div className="dalem2">
+        <div className="kanankiri">
+          <div className="bergerak">
+            <div className="gerakgerak">
+              <div className="pertama">Web Developer (Front End)</div>
+              <div className="pertama">Mobile Developer (Front End)</div>
+              <div className="pertama">Web Developer (Front End)</div>
+              <div className="pertama">Mobile Developer (Front End)</div>
             </div>
-        
-        
-    )
+          </div>
+        </div>
+        <div className="isiabout">
+          <h2 className="isis">About Me</h2>
+          <p className="isinya">
+            University of Indonesia computer engineering student semester 6, To
+            gain experience and knowledge through the involvement of different
+            job opportunities, working in teams or on personal basis. To apply
+            my communication and managerial skills. Looking forward to improve
+            myself in new professional challenges and experiences in order to
+            develop as a future leader. Always looking for ways to better
+            others. Hardworking, loyal, persistent and always ready to learn
+            from mistakes
+          </p>
+
+          <div ontouchstart="">
+            <div class="button">
+              <a href="#" onClick={clickme}>
+                Download CV
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }

@@ -1,3 +1,108 @@
-.Works{
-    
+.project-container-1 {
+  background-color: #d0d0d0;
+  margin: 100px 25% 200px 25%;
+  padding: 25px 0px;
+  height: 300px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 10% 80% 10%;
+  width: 70%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.workContainer {
+  background-color: #d0d0d0;
+  z-index: 1;
+  width: 100%;
+  max-height: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.workWrapper {
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.WorkHeader {
+  font-size: 32px;
+  line-height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  overflow: hidden;
+  padding: 1%;
+  margin: 0;
+}
+
+.arrow-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.arrow {
+  color: white;
+  font-size: 2.5rem;
+  background-color: black;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.arrow:hover {
+  transform: scale(1.08);
+}
+
+.project-name {
+  font-size: 2rem;
+  position: absolute;
+  opacity: 0;
+}
+
+.active {
+  transform: scale(1.04);
+}
+
+.project-thumbnail {
+  height: 300px;
+}
+
+.project-container-2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+.satu {
+  background-color: #d0d0d0;
+  display: flex;
+  position: relative;
+}
+
+.dua {
+  padding-left: 30%;
 }
