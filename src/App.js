@@ -1,9 +1,9 @@
 import "./App.css";
 
-import Intro from "./component/intro/Intro";
-import Works from "./component/works/Works";
-import Skill from "./component/skill/Skill";
-import Portofolio from "./component/portofolio/Portofolio";
+// import Intro from "./component/intro/Intro";
+// import Works from "./component/works/Works";
+// import Skill from "./component/skill/Skill";
+// import Portofolio from "./component/portofolio/Portofolio";
 import Fullpage from "./component/Fullpage/Fullpage";
 
 import {
