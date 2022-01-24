@@ -3,7 +3,7 @@ import Navbar from "./Navbar/Navbar";
 import Intro from "./me/Me";
 import Works from "./work/Work";
 import Skill from "./skill/Skill";
-import Portofolio from "./portofolio/Portofolio";
+import Portofolio from "./Folio/Folio";
 
 function Fullpage() {
   return (
