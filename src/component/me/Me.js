@@ -1,4 +1,4 @@
-import "./Intro.css";
+import "./Me.css";
 import foto2 from "../../assets/foto2.png";
 
 export default function intro() {

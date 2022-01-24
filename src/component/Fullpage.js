@@ -1,6 +1,6 @@
 import Botbar from "./bottom/Botbar";
 import Navbar from "./Navbar/Navbar";
-import Intro from "./intro/Intro";
+import Intro from "./me/Me";
 import Works from "./works/Works";
 import Skill from "./skill/Skill";
 import Portofolio from "./portofolio/Portofolio";
