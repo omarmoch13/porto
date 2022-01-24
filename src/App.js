@@ -1,6 +1,6 @@
 import "./App.css";
 
-import Fullpage from "./component/Fullpage/Fullpage";
+import Fullpage from "./component/Fullpage";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
