@@ -4,7 +4,6 @@ import Intro from "../intro/Intro";
 import Works from "../works/Works";
 import Skill from "../skill/Skill";
 import Portofolio from "../portofolio/Portofolio";
-
 function Fullpage() {
   return (
     <div className="App">
