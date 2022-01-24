@@ -1,4 +1,4 @@
-import "./Works.css";
+import "./Work.css";
 import findmates1 from "../../assets/findmates1.png";
 import wcare1 from "../../assets/wcare1.png";
 import kalku1 from "../../assets/kalku1.png";
