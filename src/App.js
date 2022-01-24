@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 
 import Intro from "./component/intro/Intro";
@@ -19,10 +18,10 @@ function App() {
     <Router>
       <Routes>
         <Route exact path="/" element={<Fullpage />} />
-        <Route exact path="/intro" element={<Intro />} />
+        {/* <Route exact path="/intro" element={<Intro />} />
         <Route exact path="/works" element={<Works />} />
         <Route exact path="/skill" element={<Skill />} />
-        <Route exact path="/portofolio" element={<Portofolio />} />
+        <Route exact path="/portofolio" element={<Portofolio />} /> */}
       </Routes>
     </Router>
   );

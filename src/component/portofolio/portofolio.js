@@ -1,20 +1,6 @@
 import "./Portofolio.css";
-import axios from "axios";
-import fileDownload from "js-file-download";
 
 export default function portofolio() {
-  // const clickme = (e) => {
-  //   e.preventDefault();
-  //   axios({
-  //     url: "http://localhost:3000/",
-  //     method: "GET",
-  //     ResponseType: "blob",
-  //   }).then((res) => {
-  //     console.log(res);
-  //     fileDownload(res.data, "Resume Muhammad Omar Mochtar.pdf");
-  //   });
-  // };
-
   return (
     <div className="about">
       <div className="dalem2">
