@@ -1,46 +1,43 @@
 .about {
-  display: flex;
-  height: 100vh;
   background-color: #d0d0d0;
-  align-items: center;
-  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-height: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .dalem2 {
-  display: flex;
-  position: absolute;
-  align-items: center;
-  max-width: 1200px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.kanankiri {
-  display: flex;
-  position: relative;
-  align-items: center;
-}
-.bergerak {
-  height: 50px;
-  overflow: hidden;
-  align-items: center;
-}
-
-.gerakgerak {
-  align-items: center;
-  height: 100%;
-  animation: move 10s ease-in-out infinite alternate;
-  display: flex;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 2%;
   max-width: 1200px;
-  display: flex;
+
   flex-direction: row;
   flex-wrap: wrap;
   text-align: center;
+}
+
+.kanankiri {
+  display: flex;
+}
+.bergerak {
+  flex: 1;
+  width: 100px;
+  overflow: hidden;
+  height: 50px;
+}
+
+.gerakgerak {
+  flex: 1;
+  height: 100%;
+  padding: 50px;
+  animation: move 10s ease-in-out infinite alternate;
 }
 
 @keyframes move {
@@ -60,14 +57,11 @@
 
 .pertama {
   height: 50px;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   color: black;
   background-color: #d0d0d0;
-  display: flex;
   align-items: center;
-  padding-right: 700px;
-  width: 100%;
 }
 
 .button {
@@ -96,9 +90,10 @@
 .button a:active {
   top: 10px;
   background-color: gray;
-  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #000000;
-  -moz-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3pxpx 0 #000000;
-  box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #000000;
+
+  -webkit-box-shadow: inset 0 1px 0 #ffe5c418, inset 0 -3px 0 #000000;
+  -moz-box-shadow: inset 0 1px 0 #ffe5c418, inset 0 -3px 0 #000000;
+  box-shadow: inset 0 1px 0 #ffe5c418, inset 0 -3px 0 #000000;
 }
 
 .button:after {
@@ -116,5 +111,15 @@
   border-radius: 5px;
 }
 .isiabout {
-  width: 100%;
+  font-weight: bold;
+
+  font-size: 22px;
+}
+
+.isis {
+  margin-right: 1000px;
+}
+@font-face {
+  font-family: product-sans;
+  src: url(./../../assets/fonts/ProductSansRegular.ttf);
 }

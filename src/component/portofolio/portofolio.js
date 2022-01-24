@@ -1,10 +1,20 @@
 import "./Portofolio.css";
-
-function clickme() {
-  alert("Muhammad Omar Mochtar CV is downloading");
-}
+import axios from "axios";
+import fileDownload from "js-file-download";
 
 export default function portofolio() {
+  // const clickme = (e) => {
+  //   e.preventDefault();
+  //   axios({
+  //     url: "http://localhost:3000/",
+  //     method: "GET",
+  //     ResponseType: "blob",
+  //   }).then((res) => {
+  //     console.log(res);
+  //     fileDownload(res.data, "Resume Muhammad Omar Mochtar.pdf");
+  //   });
+  // };
+
   return (
     <div className="about">
       <div className="dalem2">
@@ -19,7 +29,7 @@ export default function portofolio() {
           </div>
         </div>
         <div className="isiabout">
-          <h2 className="isis">About Me</h2>
+          <h1 className="isis">About Me</h1>
           <p className="isinya">
             University of Indonesia computer engineering student semester 6, To
             gain experience and knowledge through the involvement of different
@@ -32,11 +42,11 @@ export default function portofolio() {
           </p>
 
           <div ontouchstart="">
-            <div class="button">
-              <a href="#" onClick={clickme}>
-                Download CV
-              </a>
-            </div>
+            <a href="https://drive.google.com/file/d/1S7_wOtZGRrWePjOdi3dMz2qiKpQVQaMy/view?usp=sharing">
+              <div class="button">
+                <a>Download CV</a>
+              </div>
+            </a>
           </div>
         </div>
       </div>

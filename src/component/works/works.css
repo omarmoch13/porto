@@ -106,3 +106,7 @@
 .dua {
   padding-left: 30%;
 }
+@font-face {
+  font-family: product-sans;
+  src: url(./../../assets/fonts/ProductSansRegular.ttf);
+}

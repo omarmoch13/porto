@@ -3,7 +3,7 @@ import findmates1 from "../../assets/findmates1.png";
 import wcare1 from "../../assets/wcare1.png";
 import kalku1 from "../../assets/kalku1.png";
 import hangman1 from "../../assets/hangman1.png";
-import foto2 from "../../assets/foto2.jpg";
+
 import React, { useState } from "react";
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 

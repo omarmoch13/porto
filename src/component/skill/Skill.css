@@ -1,0 +1,193 @@
+.skill-container {
+  background-color: #d0d0d0;
+  z-index: 1;
+  width: 100%;
+  max-height: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.skill-wrapper {
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.skill1 {
+  width: 70px;
+  height: 70px;
+  align-items: center;
+  background-color: #d0d0d0;
+  padding: 10px;
+  padding-left: 30px;
+}
+.skill2 {
+  width: 90px;
+  height: 70px;
+  align-items: center;
+  background-color: #d0d0d0;
+  padding: 10px;
+  padding-left: 20px;
+}
+.skill3 {
+  width: 80px;
+  height: 80px;
+  align-items: center;
+  background-color: #d0d0d0;
+  padding: 10px;
+}
+.skill4 {
+  width: 70px;
+  height: 70px;
+  align-items: center;
+  background-color: #d0d0d0;
+  padding: 10px;
+  padding-left: 40px;
+}
+.skill5 {
+  width: 80px;
+  height: 60px;
+  align-items: center;
+  background-color: #d0d0d0;
+  padding: 15px;
+  padding-left: 20px;
+}
+.skill6 {
+  width: 80px;
+  height: 80px;
+  align-items: center;
+  background-color: #d0d0d0;
+  padding: 10px;
+  padding-left: 30px;
+}
+
+.skill-kiri1 {
+  flex: 1;
+  width: 25%;
+  overflow: hidden;
+}
+
+.kiri-dalem1 {
+  flex: 1;
+  width: 50px;
+  height: 80px;
+  animation: move 10s ease-in-out infinite alternate;
+}
+@keyframes move {
+  25% {
+    transform: translateY(-25px);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+  75% {
+    transform: translateY(-75px);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
+}
+@keyframes move {
+  25% {
+    transform: translateY(-100px);
+  }
+  50% {
+    transform: translateY(-75px);
+  }
+  75% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(-25px);
+  }
+}
+.skill-kanankiri {
+  display: flex;
+  width: 50%;
+}
+.skill-kanan {
+  flex: 1;
+  width: 50%;
+}
+.kiri-dalem2 {
+  flex: 1;
+  width: 50px;
+  height: 80px;
+  animation: move 10s ease-in-out infinite alternate;
+}
+.skill-kiri2 {
+  flex: 1;
+  width: 25%;
+  overflow: hidden;
+}
+
+.skill-header {
+  flex: 1;
+  font-size: 32px;
+  line-height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  overflow: hidden;
+  padding: 1%;
+  margin-right: 150px;
+}
+.contact-header {
+  font-size: 32px;
+  line-height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  overflow: hidden;
+  padding: 1%;
+  margin-right: -50px;
+}
+.contact1 {
+  width: 70px;
+  height: 70px;
+  align-items: center;
+  background-color: #d0d0d0;
+  padding: 10px;
+  padding-left: 20px;
+}
+.contact2 {
+  width: 90px;
+  height: 70px;
+  align-items: center;
+  background-color: #d0d0d0;
+  padding: 10px;
+  padding-left: 20px;
+}
+.contact3 {
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  background-color: #d0d0d0;
+  padding: 10px;
+  padding-left: 20px;
+}
+.contact4 {
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  background-color: #d0d0d0;
+  padding: 10px;
+  padding-left: 20px;
+}
+.skill-kanan {
+  margin-left: 50px;
+}
+@font-face {
+  font-family: product-sans;
+  src: url(./../../assets/fonts/ProductSansRegular.ttf);
+}
