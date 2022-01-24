@@ -1,4 +1,4 @@
-import "./Topbar.css";
+import "./Navbar.css";
 import logo2 from "../../assets/logoomar.png";
 
 export default function topbar() {
