@@ -45,7 +45,7 @@ export default function portofolio() {
             <a href="https://www.linkedin.com/in/muhammad-omar-6b6469126/">
               <img src={linkedin} alt="" className="contact2"></img>
             </a>
-            <a href="https://mail.google.com/mail/u/1/#inbox?compose=GTvVlcSDbhJNzqFtqBkVTNStZrcdQnWfnzdBJchLvTwkdfQsDsHWXBTVBTgkCxgXJFpwRPCmKtFDx">
+            <a href="mailto:muhammadjendral12@gmail.com">
               <img src={mail} alt="" className="contact3"></img>
             </a>
             <a href="https://www.instagram.com/omarmoch13/">
